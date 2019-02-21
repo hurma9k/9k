@@ -1,0 +1,119 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.field {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 20px;
+}
+.game-departments {
+    width: 1300px;
+    height: 220px;
+    clear:both;
+}
+.game-departments-view {
+
+    width: 400px;
+    height: 200px;
+    border: 1px solid #999;
+    float: left;
+    overflow-y: scroll;
+}
+
+.game-departments-add {
+
+    width: 400px;
+    height: 200px;
+    border: 1px solid #999;
+    float: left;
+}
+
+.game-departments-edit {
+
+    width: 400px;
+    height: 200px;
+    border: 1px solid #999;
+    float: left;
+}
+
+
+.game-workers {
+    width: 1300px;
+    height: 220px;
+    clear:both;
+}
+.game-workers-view {
+
+    width: 400px;
+    height: 200px;
+    border: 1px solid #999;
+    float: left;
+    overflow-y: scroll;
+}
+
+.game-workers-add {
+
+    width: 400px;
+    height: 200px;
+    border: 1px solid #999;
+    float: left;
+}
+
+.game-workers-edit {
+
+    width: 400px;
+    height: 200px;
+    border: 1px solid #999;
+    float: left;
+}
+
+#errors {
+    background: #c00;
+    color: #fff;
+    display: none;
+    margin: -20px -20px 20px;
+    padding: 20px;
+    white-space: pre-wrap;
+}
